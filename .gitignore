@@ -1,4 +1,7 @@
 *.tmp
 *.part
+.gradle/
+build/
+**/build/
 official/jdk17/*.tar.gz
 official/tools/*.log
