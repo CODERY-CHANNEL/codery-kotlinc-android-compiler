@@ -1,0 +1,9 @@
+This distribution contains components from the Kotlin project by JetBrains and the Android R8/D8 project by Google.
+
+Kotlin:
+https://github.com/JetBrains/kotlin
+
+R8/D8:
+https://r8.googlesource.com/r8
+
+The individual upstream licenses and notices must be preserved when redistributing these files.

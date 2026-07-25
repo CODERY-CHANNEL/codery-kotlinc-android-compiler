@@ -1,0 +1,10 @@
+{
+  "name": "codery-kotlin-compiler",
+  "kotlinVersion": "2.4.10",
+  "r8Version": "9.1.31",
+  "androidApi": 36,
+  "minApi": 30,
+  "entryPoint": "org.jetbrains.kotlin.cli.jvm.K2JVMCompiler",
+  "dexDirectory": "official/dex-r8-9.1.31",
+  "runtime": "DexClassLoader"
+}

@@ -1,0 +1,4 @@
+*.tmp
+*.part
+official/jdk17/*.tar.gz
+official/tools/*.log
