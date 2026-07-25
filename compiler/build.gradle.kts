@@ -6,21 +6,21 @@ plugins {
 }
 
 group = "com.github.CODERY-CHANNEL"
-version = "1.0.8"
+version = "1.0.9"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-daemon-embeddable:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-reflect:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-script-runtime:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-scripting-common:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:2.0.21")
-    implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.0.21")
+    implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-daemon-embeddable:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-script-runtime:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-common:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-jvm:2.4.10")
+    implementation("org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.4.10")
 }
 
 kotlin {
