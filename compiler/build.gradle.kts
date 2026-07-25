@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.github.CODERY-CHANNEL"
-version = "1.0.0"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
