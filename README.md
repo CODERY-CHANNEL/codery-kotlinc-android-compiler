@@ -32,6 +32,20 @@ Android API: 36
 Minimum Android API for DEX: 30
 ```
 
+## Gradle Dependency
+
+After publishing a release tag, add JitPack and use:
+
+```kotlin
+repositories {
+    maven { url = uri("https://jitpack.io") }
+}
+
+dependencies {
+    implementation("com.github.CODERY-CHANNEL:codery-kotlinc-android-compiler:v1.0.0")
+}
+```
+
 ## Licensing
 
 Kotlin compiler components remain licensed by their respective copyright holders. See `NOTICE` and the upstream component licenses before redistribution.
