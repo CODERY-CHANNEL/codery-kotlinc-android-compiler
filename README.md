@@ -7,10 +7,7 @@ Official Kotlin compiler components prepared for Android-hosted compilation.
 ```text
 official/kotlin/          Kotlin 2.4.10 compiler components
 official/dex-r8-9.1.31/  Android DEX payload converted with R8/D8 9.1.31
-official/tools/           R8/D8 tool and conversion log
-official/dex/             DEX payload converted with Android Build Tools 36
-dex/                      Original Sketchware-compatible reference payload
-kotlinc-for-sketchware-2.1.21_rc3.jar  Reference artifact
+official/tools/           R8/D8 toolchain
 ```
 
 ## Intended Runtime
@@ -42,7 +39,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.CODERY-CHANNEL:codery-kotlinc-android-compiler:v1.0.0")
+    implementation("com.github.CODERY-CHANNEL:codery-kotlinc-android-compiler:v1.0.2")
 }
 ```
 
